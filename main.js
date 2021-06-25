@@ -16,4 +16,12 @@ fill("purple ")
 noFill();
 stroke('purple ');
 rect(10,29,330,390);
+
+fill("red");
+textSize(20);
+text("rose", 240,120);
+fill("green ")
+noFill();
+stroke('green');
+rect(220,120,80,70);
 }
