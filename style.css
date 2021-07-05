@@ -1,20 +1,27 @@
 body{
-    background-size: cover;
-    background-position: center;
-}
-.heading
-{
-font-size: 23px;
-width: 100%;
-margin: 0px;
-}
-
-#status,#number_of_objects
-{
-font-size: 18px;
-}
-canvas{
-    box-shadow: 10px 10px 10px rgb(118, 242, 247);
-    border-radius: 10px;
-    margin-top: 30px;
-}
+    background-size: contain;
+    }
+    
+    .heading{
+    width: 100%;
+    margin: 0px;
+    font-size: 25px;
+    }
+    #number_of_object,#status,#Start{
+        font-size: 18px;
+    }
+    canvas{
+        border: 5px solid rgb(131, 238, 167);
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px rgb(64, 224, 211);
+    }
+    .footer_div{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background: linear-gradient(lightgreen 10%, white 50%, lightblue 100%);
+        line-height: 3;
+        color: rebeccapurple;
+        text-align: center;
+        font-weight: bold;
+    }
